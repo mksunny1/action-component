@@ -1,0 +1,24 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.getModifier = getModifier;
+function getModifier(model) {
+    if (model.flags.isAbstract) {
+        return 'abstract';
+    }
+    if (model.flags.isPrivate) {
+        return 'private';
+    }
+    if (model.flags.isReadonly) {
+        return 'readonly';
+    }
+    if (model.flags.isStatic) {
+        return 'static';
+    }
+    if (model.flags.isProtected) {
+        return 'protected';
+    }
+    if (model.flags.isPublic) {
+        return 'public';
+    }
+    return null;
+}
