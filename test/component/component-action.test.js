@@ -1,7 +1,7 @@
 import { CalcAction, ComponentAction, processValue } from "../../dist/action-component.js";
 import { describe, it } from 'node:test';
 import { strict as assert } from 'node:assert'
-import { ActionObject } from "../../../action-object/dist/action-object.js";
+import { ActionObject } from "action-object";
 
 describe('ComponentAction.act', async (t) => {
     const root = {

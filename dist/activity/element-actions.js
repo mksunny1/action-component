@@ -1,4 +1,4 @@
-import { ClassAction } from "../../../class-action/dist/class-action.js";
+import { ClassAction } from "class-action";
 export class ElementAction extends ClassAction {
     constructor(element, ...reactions) {
         super(...reactions);

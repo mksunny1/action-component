@@ -1,5 +1,5 @@
-import { ActionObject, IMap, callValue, getValue, splitOnce } from "../../../action-object/dist/action-object.js";
-import { ClassAction, IKey } from "../../../class-action/dist/class-action.js";
+import { ActionObject, IMap, callValue, getValue, splitOnce } from "action-object";
+import { ClassAction, IKey } from "class-action";
 import { CalcAction } from "../activity/calc-action.js";
 import { ActionComponent } from "./action-component.js";
 

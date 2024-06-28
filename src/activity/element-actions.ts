@@ -1,5 +1,5 @@
-import { ActionObject } from "../../../action-object/dist/action-object.js";
-import { ClassAction } from "../../../class-action/dist/class-action.js";
+import { ActionObject } from "action-object";
+import { ClassAction } from "class-action";
 import { ActionComponent } from "../action-component.js";
 
 export class ElementAction<T> extends ClassAction<T> {

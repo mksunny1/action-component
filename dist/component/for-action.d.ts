@@ -1,6 +1,6 @@
-import { ClassAction } from "../../../class-action/dist/class-action.js";
+import { ClassAction } from "class-action";
 import { ComponentAction, IComponentActionContext, IComponentActions } from "./component-action.js";
-import { ActionObject, IObjectCallActionContext } from "../../../action-object/dist/action-object.js";
+import { ActionObject, IObjectCallActionContext } from "action-object";
 export interface IForContext {
     path?: string;
     element: Element;

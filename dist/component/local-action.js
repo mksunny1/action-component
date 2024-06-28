@@ -1,5 +1,5 @@
 import { ComplexComponentAction } from "./component-action.js";
-import { ActionObject } from "../../../action-object/dist/action-object.js";
+import { ActionObject } from "action-object";
 /**
  * Adds a local scope. The outer scope remains available.
  *

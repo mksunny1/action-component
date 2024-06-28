@@ -2,7 +2,7 @@ import { ActionComponent, ComponentLocalAction, ComponentTextContentAction, Elem
 import { describe, it } from 'node:test';
 import { strict as assert } from 'node:assert'
 import { JSDOM } from 'jsdom'
-import { ActionObject } from "../../../action-object/dist/action-object.js";
+import { ActionObject } from "action-object";
 
 const window = new JSDOM(`<!DOCTYPE html><body></body>`).window;
 const document = window.document;

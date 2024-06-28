@@ -1,4 +1,4 @@
-import { ClassAction } from "../../../class-action/dist/class-action.js";
+import { ClassAction } from "class-action";
 export interface ICallable {
     (...args: any): any;
 }

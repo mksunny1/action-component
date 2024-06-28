@@ -1,5 +1,5 @@
-import { callValue, getValue, splitOnce } from "../../../action-object/dist/action-object.js";
-import { ClassAction } from "../../../class-action/dist/class-action.js";
+import { callValue, getValue, splitOnce } from "action-object";
+import { ClassAction } from "class-action";
 import { CalcAction } from "../activity/calc-action.js";
 import { ActionComponent } from "./action-component.js";
 /**
@@ -27,7 +27,7 @@ import { ActionComponent } from "./action-component.js";
  * const root = { planets: { mercury: () => 11 } }
  * const actionRoot = new ActionObject(root)
  * const componentAction = new MyComponentAction();
- * const context = { roots: [actionRoot] }
+ * const context = { root: actionRoot }
  * componentAction.act(context);
  * actionRoot.getChild('planets').call('mercury')
  * console.log(actions['mercury.call']);   // 11

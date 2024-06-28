@@ -3,7 +3,7 @@
  * @module:appliance to create class actions for many DOM operations like
  * attribute change, property change, re-rendering and array-binding.
  */
-import { ClassAction } from "../../../class-action/dist/class-action.js";
+import { ClassAction } from "class-action";
 import { IComponentActionContext } from "./component-action.js";
 /**
  * An object used for setting up reactivity in DOM trees.
@@ -58,9 +58,10 @@ export declare class ActionComponent extends ClassAction<IComponentActionContext
      *
      * @example
      * import { ActionComponent } from "action-component";
-     * const root = { a: 1, b: 2 };
+     * import { ActionObject } from "action-object";
+     * const root = new ActionObject({ a: 1, b: 2 });
      * const actionComponent = new ActionComponent();
-     * actionComponent.act({element: document.querySelector('#myComponent'), root})
+     * actionComponent.act({element: document.body, root})
      *
      * @param context
      * @returns

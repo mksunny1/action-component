@@ -1,4 +1,4 @@
-import { ClassAction } from "../../../class-action/dist/class-action.js";
+import { ClassAction } from "class-action";
 /**
  * Stores functiona args for calling functions at any time with
  * them. We can also extend to make the `call` method do whatever

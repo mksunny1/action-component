@@ -43,5 +43,9 @@
     "typedoc": "^0.26.1",
     "typedoc-plugin-markdown": "^4.1.0",
     "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "action-object": "^1.0.0",
+    "class-action": "^1.0.0"
   }
 }

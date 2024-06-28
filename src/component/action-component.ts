@@ -4,8 +4,8 @@
  * attribute change, property change, re-rendering and array-binding.
  */
 
-import { ActionObject } from "../../../action-object/dist/action-object.js";
-import { ClassAction } from "../../../class-action/dist/class-action.js";
+import { ActionObject } from "action-object";
+import { ClassAction } from "class-action";
 import { IComponentActionContext } from "./component-action.js";
 
 /**

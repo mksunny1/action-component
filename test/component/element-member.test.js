@@ -1,7 +1,7 @@
 import { ActionComponent, CalcAction, ComponentAction, ComponentAttrAction, ComponentPropAction, ComponentTextContentAction, processValue } from "../../dist/action-component.js";
 import { describe, it } from 'node:test';
 import { strict as assert } from 'node:assert'
-import { ActionObject } from "../../../action-object/dist/action-object.js";
+import { ActionObject } from "action-object";
 import { JSDOM } from 'jsdom'
 
 const window = new JSDOM(`<!DOCTYPE html><body></body>`).window;

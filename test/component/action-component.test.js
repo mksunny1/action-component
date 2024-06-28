@@ -2,8 +2,8 @@ import { ActionComponent } from "../../dist/action-component.js";
 import { describe, it } from 'node:test';
 import { strict as assert } from 'node:assert'
 import { JSDOM } from 'jsdom'
-import { ActionObject } from "../../../action-object/dist/action-object.js";
-import { ClassAction } from "../../../class-action/dist/class-action.js";
+import { ActionObject } from "action-object";
+import { ClassAction } from "class-action";
 
 const window = new JSDOM(`<!DOCTYPE html><body></body>`).window;
 const document = window.document;

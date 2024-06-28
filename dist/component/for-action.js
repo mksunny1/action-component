@@ -1,7 +1,7 @@
-import { ClassAction } from "../../../class-action/dist/class-action.js";
+import { ClassAction } from "class-action";
 import { ActionComponent } from "./action-component.js";
 import { ComponentAction } from "./component-action.js";
-import { ActionObject } from "../../../action-object/dist/action-object.js";
+import { ActionObject } from "action-object";
 export class PushAction extends ClassAction {
     constructor(context) {
         super();
